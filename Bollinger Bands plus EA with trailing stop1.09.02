@@ -31,7 +31,7 @@ input double            RiskPerTradePercent     = 1.0;
 // Risk percentage per trade (e.g., 1.0 for 1%)
 input double            StopLossATRMultiplier   = 2.75; // Adjusted as per backtest suggestion
 // Adjusted: Stop Loss as a multiplier of ATR (e.g., 2.5 * ATR)
-input int               TakeProfitPips          = 1000; // Not used, TP is now dynamic based on SL
+input int               TakeProfitPips          = 0; // Not used, TP is now dynamic based on SL
 // Take Profit in pips (from entry price) - Original 1:3 RRR with 250 SL
 input int               BBPeriod                = 20;
 // Bollinger Bands Period
